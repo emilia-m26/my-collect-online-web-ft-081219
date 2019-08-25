@@ -5,7 +5,7 @@ def my_collect(collection)
   new_collection <<
   yield (collection[count])
   count +=1 
-  end
+end
 new_collection
 end
 
